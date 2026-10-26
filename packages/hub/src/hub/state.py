@@ -1,5 +1,5 @@
 from datetime import datetime
-from .models import DeviceData
+from common.models import DeviceData
 from pydantic import *
 
 class DeviceDataPacket(BaseModel):

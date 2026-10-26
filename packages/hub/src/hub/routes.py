@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from .state import DeviceDataPacket, devices
-from .models import DeviceData
+from common.models import DeviceData
 from .watchdog import feed_watchdog
 from .hub import broadcast
 
